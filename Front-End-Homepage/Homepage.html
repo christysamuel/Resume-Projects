@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snack Attack</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="Snack attack logo.png">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+        <img class="logo" src="images/Snack attack logo.png" alt="Snack Attack Logo">
+        <div class="text-logo">SnackAttack</div>
+        <nav>
+            <ul class="navbar">
+                <li><a href="Home.html" class="active">Home</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="Order.html">Order</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 style=" display: block; text-align: center; color: rgb(255, 255, 255); font-family: Monospace; font-size: 3em; margin-bottom: 0.8em; padding-top: 0.8em; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Welcome to Snack Attack!</h1>
+
+    <div class="featured-section">
+    <h2 class="featured-title">Featured Items</h2>
+
+    <div class="featured-items">
+        <div class="featured-card">
+            <img src="images/burger.jpg" alt="Smash Burger">
+            <h3>Burger Attack</h3>
+        </div>
+
+        <div class="featured-card">
+            <img src="images/wings.jpg" alt="Wings">
+            <h3>Wings</h3>
+        </div>
+
+        <div class="featured-card">
+            <img src="images/cake.webp" alt="Lava Cake">
+            <h3>Lava Cake</h3>
+        </div>
+
+        <div class="featured-card">
+            <img src="images/donut.webp" alt="Build Your Own Donut">
+            <h3>Build Your Own Donut</h3>
+        </div>
+    </div>
+</div>
+
+    <table border="1">
+        <tr>
+            <th colspan="3">Hours</th>
+        </tr>
+        <tr>
+            <td>Monday-Thursday</td>
+            <td>9:00 AM - 9:00 PM</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>9:00 AM - 9:00 PM</td>
+        </tr>
+        <tr>
+            <td>Saturday</td>
+            <td>10:00 AM - 10:00 PM</td>
+        </tr>
+        <tr>
+            <td>Sunday</td>
+            <td>Closed</td>
+        </tr>
+        <tr>
+            <th colspan="2">Location</th>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding: 0.8em 0.8em;">Contour Rd SW, Liberty Township, KS 66852</td>
+        </tr>
+    </table>
+
+    <style>
+
+body {
+    color: #a0a0a0;
+    flex-direction: column;
+    filter: brightness(0.8);
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 102%;
+    background-image: url('images/Snack Attack.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    filter: brightness(0.5);
+    z-index: -1;
+}
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.overlay {
+    position: relative;
+    display: flex;
+    margin-top: 1em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0.9px 0.9px 1.5px rgb(0, 0, 0);
+}
+
+footer h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #fc7878;
+    z-index: 1;
+}
+
+footer span {
+    color: #e0ad1f;
+}
+
+footer p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)100%);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);
+}
+
+.section-title {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #e0ad1f;
+    border-left: 5px solid whitesmoke;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.about-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.skill-box {
+    background: linear-gradient(to top, rgba(240, 173, 64, 0.589)50%, rgba(0,0,0,0.8)100%);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.skill-box h3 {
+    color: #e0ad1f;
+    margin-bottom: 10px;
+}
+
+.skill-box p {
+    color: #ccc;
+}
+
+</style>
+<br/>
+
+    <div class="container">
+        <h2 class="section-title">About Us</h2>
+        <p class="about-text">
+           Hello! SnackAttack is a professional snack company dedicated to providing high-quality, delicious snacks to our customers. 
+        We are passionate about creating unique and flavorful snacks that satisfy cravings and bring joy to snack time. 
+        <br/>
+        Our team is committed to using the finest ingredients and innovative recipes to ensure that every bite is a delightful experience.
+        Whether you're looking for a quick snack on the go or a tasty treat to share with friends, SnackAttack has you covered. 
+        Join us on our mission to make snacking an unforgettable experience!
+            <br/><br/>
+            At SnackAttack, we believe that snacking should be more than just a quick bite – it should be an adventure for your taste buds. 
+            We are dedicated to crafting snacks that not only satisfy hunger but also ignite your senses with bold flavors and exciting combinations.
+        </p>
+
+        <h2 class="section-title">How We Started</h2>
+        <p class="about-text">
+            SnackAttack was founded with a simple yet powerful idea: to provide a delightful experience for snacking enthusiasts.
+        Our journey began with a passion for creating unique and delicious snacks that could bring joy to people's lives.
+        We started small, experimenting with different recipes and flavors in our kitchen.
+        <br/>
+        As our love for snacking grew, so did our vision for SnackAttack. We wanted to create a brand that not only offered tasty treats but also fostered a sense of community among snack lovers.
+        With dedication and hard work, we turned our passion into a thriving business. 
+        <br/>
+        Today, SnackAttack is proud to be a go-to destination for snack enthusiasts everywhere, and we continue to innovate and expand 
+        our offerings to bring even more joy to our customers' snacking experiences.
+        </p>
+
+        <h2 class="section-title">Skills</h2>
+        <div class="skills">
+            <div class="skill-box">
+                <h3>Snack Creation</h3>
+                <p>We excel at crafting unique and delicious snacks that cater to a wide range of tastes and preferences.</p>
+            </div>
+
+                <div class="skill-box">
+                    <h3>Quality Ingredients</h3>
+                    <p>We are committed to using only the finest ingredients in our snacks to ensure the best possible taste and quality.</p>
+                </div>
+
+            <div class="skill-box">
+                <h3>Customer Satisfaction</h3>
+                <p>Our dedication to customer satisfaction drives us to continuously improve our products and services.</p>
+            </div>
+
+                <div class="skill-box">
+                    <h3>Innovation</h3>
+                    <p>We are always exploring new flavors and combinations to keep our snack offerings exciting and fresh.</p>
+                </div>
+
+            <div class="skill-box">
+                <h3>Community Engagement</h3>
+                <p>We foster a sense of community among snack lovers through our brand and customer interactions.</p>
+            </div>
+
+                <div class="skill-box">
+                    <h3>Marketing</h3>
+                    <p>We effectively promote our brand and products to reach a wider audience and build a loyal customer base.</p>
+                </div>
+            
+            <div class="skill-box">
+                <h3>Customer Support</h3>
+                <p>Our dedicated customer support team is available to address any questions or concerns, ensuring a smooth experience for our customers.</p>
+            </div>
+
+                <div class="skill-box">
+                    <h3>Customer Service</h3>
+                    <p>Our dedicated customer service team is committed to providing exceptional support and ensuring a positive experience for all our customers.</p>
+                </div>
+        </div>
+    </div>
+
+    <footer><div class="overlay">
+        <h1>Snack <span>Attack</span></h1>
+        <p>Professional • Creative • Dedicated</p></div>
+    </footer>
+<br/>
+    <input type="button" onclick="window.location.href='Order.html'" class="order-button" value="ORDER NOW">
+</body>
+</html>
+  
